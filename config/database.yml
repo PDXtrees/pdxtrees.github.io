@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: sequoia_development
+
+test:
+  adapter: postgresql
+  database: sequoia_test
