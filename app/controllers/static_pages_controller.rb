@@ -16,4 +16,10 @@ class StaticPagesController < ApplicationController
 
   def profile
   end
+
+  def partners
+  end
+
+  def tree
+  end
 end
