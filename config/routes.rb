@@ -5,4 +5,5 @@ Sequoia::Application.routes.draw do
   match '/rankings',     to: 'static_pages#rankings',     via: 'get'
   match '/trees',     to: 'static_pages#trees',     via: 'get'
   match '/contact',   to: 'static_pages#contact',   via: 'get'
+  match '/profile',   to: 'static_pages#profile',   via: 'get'
 end

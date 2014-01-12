@@ -1,6 +1,6 @@
 @import "bootstrap";
 
-/* universal */
+/* UNIVERSAL */
 
 html {
   overflow-y: scroll;
@@ -8,6 +8,7 @@ html {
 
 body {
   padding-top: 60px;
+  background-image: image-url('wood.png');
 }
 
 section {
@@ -26,10 +27,47 @@ textarea {
   margin-bottom: 10px;
 }
 
-/* typography */
+.control-width {
+  width: 60%;
+}
+
+.green-font {
+  color: #266340 !important;
+}
+
+ul {
+  list-style-type: lower-greek;
+}
+
+.wide-hr {
+  color: #dd9f4f;
+  background: #dd9f4f;
+  border: #BA8541;
+  height: 5px;
+}
+
+.narrow-hr {
+  color: #dd9f4f;
+  background: #dd9f4f;
+  border: #BA8541;
+  height: 2px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.old-map {
+  background-image: image-url('old_map.png');
+}
+
+.extra-margin-top {
+  margin-top: 35px;
+}
+
+/* TYPOGRAPHY */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
+  color: #16240F;
 }
 
 h1 {
@@ -39,27 +77,28 @@ h1 {
   text-align: center;
 }
 
-h2 {
+/*h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
   color: #999;
-}
+}*/
 
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  color: #16240F;
 }
 
-/* header */
+/* HEADER */
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #f2f2f2;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -72,7 +111,11 @@ p {
   text-decoration: none;
 }
 
-/* footer */
+.green-bar {
+  background-image: image-url('pool_table.png');
+}
+
+/* FOOTER */
 
 footer {
   margin-top: 45px;
@@ -101,4 +144,24 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 10px;
+}
+
+/* PROFILE */
+
+.panel {
+  border-color: #266340;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1.25em;
+  border-radius: 3px;
+}
+
+.super-panel {
+  border-width: 2px;
+  margin: 4em;
+}
+
+.profile-image {
+  display: block;
+  text-align: center;
 }
