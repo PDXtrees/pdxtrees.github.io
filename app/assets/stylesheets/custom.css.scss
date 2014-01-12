@@ -94,6 +94,10 @@ p {
 
 /* HEADER */
 
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+  color: #f2f2f2;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
