@@ -154,7 +154,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   pg
-  rails
+  rails (= 4.0.0)
   rails_12factor (= 0.0.2)
   rails_layout
   sass-rails
